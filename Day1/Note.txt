@@ -1,0 +1,22 @@
+Anaconda vs Python
+Python 2 Vs Python 3 - print "Hello World" print("Hello World")
+
+4 Things
+Data Types
+Terms - Variable, Function, Class
+Action 
+Best Practices
+
+DataTypes:
+int
+float
+bool
+str
+list
+tupple
+set
+dict
+none
+
+
+
