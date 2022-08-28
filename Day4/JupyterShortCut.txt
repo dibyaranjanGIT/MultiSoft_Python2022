@@ -1,0 +1,7 @@
+Short cut in Jupyter notebook
+Shift + Enter --> Run a cell
+Alt + Enter --> Run a cell with addition of new cell
+esc + a --> insert a cell above
+esc + b --> insert a cell below
+esc + d + d --> delete a cell
+If the notebook hangs -> Restart kernel
