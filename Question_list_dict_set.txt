@@ -1,0 +1,42 @@
+Q2.
+Create a set my_set , which has values {"first Name","Last Name"}.
+Take the value first Name from the set, and store it in a variable as f_name and print the output to console.
+
+Q2.
+Find the length of the below list 
+li = ['a', 'b', 'b','d','e','f','a']
+
+Q3.
+Count the number of times 'b' occures in the bleow list
+li = ['a', 'b', 'b','d','e','f','a']
+
+Q4.
+# Palindrom question
+Check If a given string input is a palindrom or not
+Palindrom : If a string appears same when read forward or backward.
+For example: string = 'amaama' is palindrom, but  'khokho' is not palindrom
+
+Hint1: Ask for your user input and store it in a variable 
+Hint2: You have to use len function
+
+Q6.
+L = ['a', 'b', ['cc', 'dd', ['eee', 'fff']], 'g', 'h']
+using list index print the output 'eee' in the console
+
+Q5.
+cryptowallet={'makerCommission':0,
+'takerCommission':0,
+'buyerCommission':0,
+'sellerCommission':0,
+'canTrade':True,
+'canWithdraw':False,
+'canDeposit':True,
+'accountType':['SPOT','ONLINE'],
+'balances':[{'assset':'BTC','free':'₹100','locked':2.0},
+{'assset':'BNB','free':'₹150','locked':1.0},
+{'assset':'USD','free':'₹500','locked':0.0},
+{'assset':'ETH','free':'₹100','locked':2.0}]}
+
+. In the above dictionary print the accountType
+. In the above dictionary print the 'free' value for assset 'ETH'
+
