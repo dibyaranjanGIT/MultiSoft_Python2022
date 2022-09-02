@@ -1,0 +1,28 @@
+Mukesh ----
+1. Create a dictionary with name user
+2. Add key age = your age, 
+   add key user_name = set a user name, 
+   add key friends = a list containing more than one friend
+   add key gender = true if male or false if female
+   
+3. print all the keys of this dictionary
+
+
+Bhabani ----
+4. print all the values of this dictionary
+5. add a new friend 
+6. update the dictionary is_married , set it to true if married false if not
+
+
+Tinu ----
+7. classs = {'Bhabani','Tinu','Mukesh','Jiban','Dibyaranajn'}
+	students = {'Bhabani','Tinu','Mukesh','Jiban'}
+	write a simple set method to find the difference between the class and students list
+	
+8. students = ['Bhabani','Tinu','Mukesh','Jiban','Monalisa']
+	write a list method to remove Monalisa from the list 
+	write a list method to add Rajat to the list
+	
+	
+	
+	
