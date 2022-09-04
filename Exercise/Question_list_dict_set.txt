@@ -1,4 +1,4 @@
-Q2.
+Q1.
 Create a set my_set , which has values {"first Name","Last Name"}.
 Take the value first Name from the set, and store it in a variable as f_name and print the output to console.
 
@@ -10,6 +10,8 @@ Q3.
 Count the number of times 'b' occures in the bleow list
 li = ['a', 'b', 'b','d','e','f','a']
 
+
+===== bhabani =======
 Q4.
 # Palindrom question
 Check If a given string input is a palindrom or not
@@ -17,7 +19,6 @@ Palindrom : If a string appears same when read forward or backward.
 For example: string = 'amaama' is palindrom, but  'khokho' is not palindrom
 
 Hint1: Ask for your user input and store it in a variable 
-Hint2: You have to use len function
 
 Q6.
 L = ['a', 'b', ['cc', 'dd', ['eee', 'fff']], 'g', 'h']
@@ -39,4 +40,19 @@ cryptowallet={'makerCommission':0,
 
 . In the above dictionary print the accountType
 . In the above dictionary print the 'free' value for assset 'ETH'
+
+
+
+=========== Jiban ============
+Q6.
+Print the below text in terminal
+text = 'He said, What's there'
+print(text)
+
+Q7.
+name='Mukesh kumar sethi'
+print(name[-5::])
+
+Q8.
+What is concatination operation in String
 
