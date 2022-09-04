@@ -1,7 +1,20 @@
 Try Except and Catch
 Workding with Files
 
-How to do web scraping
+
 Python OS Module to work with directories
 
 Python Generators
+
+
+Create a project on rock papaer scissiors 
+
+Create a project on tic tac toe game
+
+Create a project on web scraping
+
+Create a GUI application (Pong Game)
+
+Create a flask application project
+
+Create a ML project

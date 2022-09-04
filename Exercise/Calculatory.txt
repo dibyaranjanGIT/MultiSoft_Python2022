@@ -1,0 +1,6 @@
+Create a calculator application
+
+Hint1 - Take num1 and num2 input from the user
+Hint2 - Ask for operation to be performed like + - * / % and 
+
+Then print the result
