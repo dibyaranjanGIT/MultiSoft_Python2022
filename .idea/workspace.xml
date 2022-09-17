@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/MultiSoft_Python2022.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day4_Exercise/TrueLoveCalclator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MyClass.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day5/Day5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/Day5.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/FizzBuzz/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4_Exercise/.ipynb_checkpoints/Exercise-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4_Exercise/Exercise.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4_Exercise/TrueLoveCalclator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4_Exercise/download.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4_Exercise/your-crush-true-love.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
