@@ -1,0 +1,29 @@
+1) Unpacking of an tupple or List
+
+2) How to use Negative indexing
+
+3) Slicing in python
+
+4) Dictionary and it's methods
+    a. syntax of creating a dictionary
+    b. how to get the items of an dictionary
+    c. how to update a dicionary
+
+5) List and it's methods
+    Indexing and slicing
+    Fetch the data of a nested list
+    a. how to create a list
+    b. how to append one item to the list - append
+    c. how remove an item in the list - remove and pop
+    d. how to find the index of an item in the list - index
+    e. how find the count of an item in a list
+    How to iterate through a list
+
+6) String and it's methods
+    Formated strings
+    escape sequence in strings \
+    indexing of string
+    concatination of strings
+    How iterate through a string
+    String Methods:
+        Replace - To replace a part of a string+
