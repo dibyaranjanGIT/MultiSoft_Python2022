@@ -1,0 +1,24 @@
+While loop
+Contiue to execute until a condition is true
+Q. Take user input and create a multiplication table for it.
+
+
+How to define a function
+how to call a function
+function doc string
+function parameter and arguments
+add more than one paramenter to the function
+return is the end of function
+how to pass a default value to the parameter
+
+create a function which will take marks as list
+and it will sum all the marks
+find the average of all the marks
+
+Q.
+if the average is greater than the 60 return first,
+                                            greater than 50 and less than 60 secon
+                                            greater than 30 less than 50 third
+                                            else fail
+
+
