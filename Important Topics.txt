@@ -1,11 +1,19 @@
+what is None data type
+what is pass
+Continue
+return multiple values in the function
+list comprehension, dictionary comprehension
+lambda functions
+
+any and all
+
+
 Try Except and Catch
 Workding with Files
-
 
 Python OS Module to work with directories
 
 Python Generators
-
 
 Create a project on rock papaer scissiors 
 
@@ -15,6 +23,3 @@ Create a project on web scraping
 
 Create a GUI application (Pong Game)
 
-Create a flask application project
-
-Create a ML project
