@@ -1,0 +1,5 @@
+Catching exception
+
+reading files
+
+local and global varialbles

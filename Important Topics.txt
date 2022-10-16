@@ -6,10 +6,12 @@ list comprehension, dictionary comprehension
 lambda functions
 
 any and all
+break, continue and pass
 
+Workding with Files
 
 Try Except and Catch
-Workding with Files
+
 
 Python OS Module to work with directories
 

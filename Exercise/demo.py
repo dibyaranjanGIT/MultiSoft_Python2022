@@ -143,6 +143,28 @@ tinu = {"ful_name":"jiban jyoti giri", "age":18 }
 #     print(name)
 
 
-tinu = ["Jiban" , "Giri", ["Tinu", ["Narendra", ["Priyadarshi"]]]]
+# tinu = ["Jiban" , "Giri", ["Tinu", ["Narendra", ["Priyadarshi"]]]]
+
+# li = ['a', 'b', 'c']
+# new_li = []
+# for index, item in enumerate(li):
+#     new_li.append((index, item))
+# print(new_li)
+
+# li = [2, 8, 7, 6, 9]
+# target = 14
+#
+# for i in range(len(li)):
+#     for j in range(i+1, len(li)):
+#         if li[i] + li[j] == target:
+#             print(i, j)
+#         else:
+#             continue
+import pandas
+
+import time
+print("Loading...")
+time.sleep(5)
+print("done....")
 
 
