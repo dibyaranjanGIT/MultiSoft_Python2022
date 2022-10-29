@@ -1,0 +1,12 @@
+
+How to run a python file
+
+how to pass arguments
+
+and what is if __name__ == "__main__"
+
+How to install a python package
+
+How know what are the packages present in your environment
+
+Try to solve a leet code or some problem

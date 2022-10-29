@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day9/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/imp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functions/teach.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day9/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day9/topics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/topics.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/BlackJack/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/BlackJack/art.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/my_exercise/lesson.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/my_exercise/lesson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/args_kwargs.py" beforeDir="false" afterPath="$PROJECT_DIR$/args_kwargs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

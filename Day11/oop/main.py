@@ -12,3 +12,6 @@ print(my_screen.canvheight)
 
 # method
 my_screen.exitonclick()
+
+
+## Talk about private protectect and public 
