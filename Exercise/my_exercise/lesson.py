@@ -50,19 +50,15 @@ numbers= [1,2,3,2,5,5,3]
 #     else:
 #         print(i)
 
-# create a function which will accecpt a list and a target number
+# create a function which will accept a list and a target number
 # if the sum of the any two items equals to the target number, then return the index of those two items
 ## constraints = the list should at least contains two items
 # input
 # li = [2, 8, 7]
 # target = 9
-# ouputput
+# output
 # (0, 2)
 
 
-#
-#
-# def hello(a=0,name="Jiban"):
-#     print(a,name)
-#
-# hello(2, "Tinu")
+
+

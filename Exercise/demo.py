@@ -160,11 +160,37 @@ tinu = {"ful_name":"jiban jyoti giri", "age":18 }
 #             print(i, j)
 #         else:
 #             continue
-import pandas
+# import pandas
+#
+# import time
+# print("Loading...")
+# time.sleep(5)
+# print("done....")
 
-import time
-print("Loading...")
-time.sleep(5)
-print("done....")
+
+# import turtle
+# print(type(turtle))
+#
+# num = 10
+# print(type(num))
 
 
+# class Car:
+#     pass
+#
+# car = Car()
+# car.name = "MS"
+# car.color = "Blue"
+#
+# print(car.color)
+
+# class Car:
+#     def __init__(self, color):
+#         pass
+#
+# car = Car(8)
+# print(car.color)
+
+li = [1,2,1]
+new_li = li[::-1]
+print( li == new_li)
