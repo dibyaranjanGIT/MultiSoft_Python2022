@@ -9,4 +9,28 @@ How to install a python package
 
 How know what are the packages present in your environment
 
-Try to solve a leet code or some problem
+Q1.
+Code to find an Armstrong number
+371 is an armstrong numbre
+3**3 + 7**3 + 1**3 = 371
+153 is also an armstrong numbe
+9474= (9x9x9x9)+ (4x4x4x4)+ (7x7x7x7)+ (4x4x4x4)
+
+
+Q2.
+Black Jack problem
+
+user_cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+computer_cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+
+In first user will get cards and computer will get two cards
+Then you will ask user to draw one more card if yes then draw and add the value of it
+repeat the above as long as user is ready to draw
+
+once the user stops the computer will draw random cards until it reaches less than 21 and greater that users card
+value
+If the computer is less than the users value or it crosses the value of 21 then it looses
+
+Hint1:
+You have to use random module to pick cards from the list
+random.choice(li)

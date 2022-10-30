@@ -114,27 +114,27 @@
 # Exception handling
 
 
+# #
+# try:
+#     with open('topics.txt', mode='r') as file:
+#         c = file.read()
+#         print(c)
 #
-try:
-    with open('topics.txt', mode='r') as file:
-        c = file.read()
-        print(c)
-
-    li = [1, 2]
-    print(li[2])
-except FileNotFoundError:
-    print("File not found ...")
-    with open("topics.txt", mode='w') as file:
-        file.write("Hello")
-
-except IndexError as E:
-    print(E)
-
-else:
-    print("This is else")
-
-finally:
-    print("THis is final")
+#     li = [1, 2]
+#     print(li[2])
+# except FileNotFoundError:
+#     print("File not found ...")
+#     with open("topics.txt", mode='w') as file:
+#         file.write("Hello")
+#
+# except IndexError as E:
+#     print(E)
+#
+# else:
+#     print("This is else")
+#
+# finally:
+#     print("THis is final")
 
 
 

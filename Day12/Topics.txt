@@ -1,3 +1,7 @@
 Decorators 
 and 
 Generators
+Recursion
+Enclosure
+
+Programming Paradigm
