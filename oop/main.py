@@ -69,37 +69,36 @@ Private Member: Accessible within the class (__)
 Protected Member: Accessible within the class and its sub-classes (_)
 '''
 
-class Employee:
-    # constructor
-    def __init__(self, name, salary):
-        # data members
-        self.name = name
-        self.__salary = salary
-
-emp = Employee('Dibya', 10000)
-
-print('Name:', emp.name)
-print('Salary:', emp.__salary) ## Not showing
+# class Employee:
+#     # constructor
+#     def __init__(self, name, salary):
+#         # data members
+#         self.name = name
+#         self.__salary = salary
+#
+# emp = Employee('Jeeban', 10000)
+#
+# print('Name:', emp.name)
+# print('Salary:', emp.__salary) ## Not showing
 
 
 ## Protected member ##
-class Company:
-    def __init__(self):
-        self._project = "Python"
-
-# child class
-class Employee(Company):
-    def __init__(self, name):
-        self.name = name
-        Company.__init__(self)
-
-    def show(self):
-        print("Employee name :", self.name)
-        # Accessing protected member in child class
-        print("Working on project :", self._project)
-
-c = Employee("Jessa")
-c.show()
+# class Company:
+#     def __init__(self):
+#         self._project = "Python"
+#
+# # child class
+# class Employee(Company):
+#     def __init__(self, name):
+#         self.name = name
+#         Company.__init__(self)
+#
+#     def show(self):
+#         print("Employee name :", self.name)
+#         print("Working on project :", self._project)
+#
+# c = Employee("Jeeban")
+# c.show()
 
 
 
