@@ -137,8 +137,6 @@
 #     print("THis is final")
 
 
-
-
 # def main(a, b):
 #     a = a + 10
 #     b = b + "Hello"
@@ -146,3 +144,50 @@
 #
 # v = main(b="Jiban", a=10)
 # print(v)
+
+
+# Varaible scope:
+
+
+# def jiban():
+#     global name
+#     name = "JIban"
+#     print("Hello", name)
+#
+# print(name)
+
+
+# def jiban():
+#     print("Hello Jiban")
+#
+# def hello():
+#     def world():
+#         print("World")
+#     return world
+#
+# var = hello()
+# var()
+
+
+# def main():
+#     print("Hello")
+#     main()
+
+# n! = n * n-1 * n-2 .... 1
+# n! = n * (n-1) !
+
+# def rec(n):
+#     if n == 1:
+#         return 1
+#     else:
+#         return n * rec(n-1)
+#
+# print(rec(5))
+#
+# 5 * fac (4)
+# 5 * 4 * fac(3)
+# 20 * 3 * fac(2)
+# 60 * 2 * fac(1)
+# 120 * 1
+
+

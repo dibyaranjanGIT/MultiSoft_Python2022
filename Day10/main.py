@@ -37,4 +37,4 @@ if __name__ == '__main__':
     sys.stdout.write(str(calc(args)))
 
 
-# >python main.py --x 10 --y 20 --o add
+# >python jiban.py --x 10 --y 20 --o add

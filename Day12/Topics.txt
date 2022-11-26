@@ -8,7 +8,6 @@ Programming Paradigm
 
 Variabl scope
 
-
 Recursive Function:
 def factorial(no):
     if no == 0:
