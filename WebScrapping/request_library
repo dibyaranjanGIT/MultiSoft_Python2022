@@ -1,0 +1,8 @@
+pip install requests
+pip install html5lib
+pip install bs4
+
+request is the library which help us to bring the content from the web
+
+Some websites don't want you to scrape their website so they provide API for accessing the information.
+

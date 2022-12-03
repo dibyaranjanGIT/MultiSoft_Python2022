@@ -1,0 +1,19 @@
+conda create -n pytorch python=3.7
+
+conda create --prefix ./env python=3.7 # This will create your environment in the current working directory instead of C drive
+conda activate ./env 				   # To activate this environment
+
+pip install ipykernel
+
+python -m ipykernel install --user --name pytorch --display-name "pytorch"
+
+
+
+-- Environment Path
+C:\Users\DIBYARANJAN-PC\anaconda3\envs
+
+-- To check the environment created
+conda env list
+
+-- To remove an environment
+conda env remove -n demo 

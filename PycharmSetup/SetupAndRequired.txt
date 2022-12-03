@@ -1,0 +1,16 @@
+download - https://www.jetbrains.com/pycharm/download/#section=windows
+
+What is a python project in Pycharm ?
+A project helps you organize your source code, tests, libraries that you use, and your personal settings in a single unit
+
+How to setup a project using Pycharm
+
+How to use terminal
+
+how to install new library
+
+How to use python Interpretor in Pycharm
+
+how to Debug in the Pycharm
+
+

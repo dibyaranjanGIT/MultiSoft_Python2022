@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSA/bubble_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/print_comment_escapeSequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterables_Iterators/iterator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebScrapping/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebScrapping/request_library" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_OS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day10.1/Topics" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_Python/Topics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day10.1/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator_Python/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day10/Topics.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day10/check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day10/code.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day10/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day11/oop/demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day11/oop/jiban.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day11/requestt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day12/Topics.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day7/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8/Handling_exception/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8/Handling_exception/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8/topics.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day9/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day9/topics.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_API/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_API/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_API/kanye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_API/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -52,8 +75,8 @@
       <recent name="D:\STUDY\MultiSoft_Python2022\Exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.demo (1)">
-    <configuration name="bubble_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.print_comment_escapeSequence">
+    <configuration name="iterator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Iterables_Iterators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/bubble_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Iterables_Iterators/iterator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,32 +105,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tkinter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MultiSoft_Python2022" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WebScrapping/RealEstageScraping" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WebScrapping" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebScrapping/RealEstageScraping/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebScrapping/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="polymorphisim" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="print_comment_escapeSequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +147,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/polymorphisim.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day2/print_comment_escapeSequence.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python_OS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiSoft_Python2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_OS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.demo (1)" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.bubble_sort" />
-        <item itemvalue="Python.polymorphisim" />
+        <item itemvalue="Python.print_comment_escapeSequence" />
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.iterator" />
+        <item itemvalue="Python.python_OS" />
       </list>
     </recent_temporary>
   </component>

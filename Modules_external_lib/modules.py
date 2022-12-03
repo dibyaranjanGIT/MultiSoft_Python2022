@@ -1,0 +1,28 @@
+# Creating modules helps our code more cleaner
+
+# some modules are already available to us while installing python like math
+
+import math
+math.sqrt(4)
+
+#we can import a specific function from a module
+from math import sqrt
+sqrt(4)
+
+# we can rename the module after importing it
+import math as m
+
+#we can import all the function and variable inside a module using * like
+from math import *
+
+#some popular modules numpy, pandas and django for web developement
+
+#How to create our custom module
+#create a calculator.py file
+#inside this create function like
+def add(x,y):
+    return x + y
+
+# you can import this module from another module and start using it.
+
+
