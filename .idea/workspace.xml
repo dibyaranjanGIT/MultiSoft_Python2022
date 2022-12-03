@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pkg/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommandLIneUtility/python_utility.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/dist/packagedibya-0.0.1-py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/dist/packagedibya-0.0.1-py3-none-any.whl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pkg/generation_disbribution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/generation_disbribution.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

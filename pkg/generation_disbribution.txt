@@ -1,3 +1,11 @@
+# At the begining our folder should look like this
+package-folder
+├── LICENSE
+├── README.md
+├── setup.py
+└── test_package
+    └── __init__.py
+
 Generating distributions
 
 Distribution archives are needed for hosting it as a package. To generate these packages,
