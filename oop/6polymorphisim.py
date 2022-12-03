@@ -15,6 +15,11 @@ Method overriding is useful when a parent class has multiple child classes, and 
  we don’t need to modification the parent class code
 '''
 
+# Example
+print(5 + 6)
+print("DIbya" + "Good")
+
+
 class Vehicle:
 
     def __init__(self, name, color, price):
