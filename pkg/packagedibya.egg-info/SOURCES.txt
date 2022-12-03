@@ -1,0 +1,7 @@
+README.md
+setup.py
+packagedibya/__inti__.py
+packagedibya.egg-info/PKG-INFO
+packagedibya.egg-info/SOURCES.txt
+packagedibya.egg-info/dependency_links.txt
+packagedibya.egg-info/top_level.txt

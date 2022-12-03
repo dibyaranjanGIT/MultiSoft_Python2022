@@ -6,11 +6,6 @@ This is called information hiding.
 Also, encapsulation allows us to restrict accessing variables and methods directly and prevent accidental
 data modification by creating private data members and methods within a class.
 
-Encapsulation is a way to can restrict access to methods and variables from outside of class.
-Whenever we are working with the class and dealing with sensitive data, providing access to all variables used within
-the class is not a good choice.
-
-
 ## Access Modifiers in Python ##
 Encapsulation can be achieved by declaring the data members and methods of a class either as private or protected.
 But In Python, we don’t have direct access modifiers like public, private, and protected.

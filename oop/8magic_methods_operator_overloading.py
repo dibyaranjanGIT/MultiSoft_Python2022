@@ -3,7 +3,7 @@
 
 class Employee:
     def __init__(self):
-        self.name = 'Swati'
+        self.name = 'Dibya'
         self.salary = 10000
 
     def __str__(self):
@@ -13,9 +13,9 @@ class Employee:
 e1 = Employee()
 print(e1)
 e2 = Employee()
-
 # print(e1 + e2) # This will give error
-#
+
+
 # class Person:
 #
 #     def __init__(self, name):

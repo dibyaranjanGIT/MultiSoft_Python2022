@@ -1,0 +1,15 @@
+Generating distributions
+
+Distribution archives are needed for hosting it as a package. To generate these packages,
+we need to install two additional packages.
+
+pip install setuptools wheel
+
+Now that we installed them, run the below command to generate archives:
+python setup.py bdist_wheel
+
+cd dist
+
+pip install .\packagedibya-0.0.1-py3-none-any.whl
+
+

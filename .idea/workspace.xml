@@ -2,22 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Json/json_tut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VariableScopeNameSpace/variable_scope.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/1variable_scope.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/2class_static_methods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/3inheritance_tut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/4encapsulation_tut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/5getter_setter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/6polymorphisim.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/7super()_inherit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/8magic_methods_operator_overloading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pickling/filename" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pickling/mydetails.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pickling/pickle_tut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Regex/exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Regex/re.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Regex/regex_tut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/build/lib/packagedibya/__inti__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/dist/packagedibya-0.0.1-py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/generation_disbribution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/packagedibya.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/packagedibya.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/packagedibya.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/packagedibya.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/packagedibya/__inti__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functions/decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/decorator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphisim.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requestt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/4encapsulation_tut.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/4encapsulation_tut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/8magic_methods_operator_overloading.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/8magic_methods_operator_overloading.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +46,15 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="2Et4RVgm6Otd5lu8JTLz7n9vtD8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -64,7 +70,7 @@
       <recent name="D:\STUDY\MultiSoft_Python2022\Exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.8magic_methods_operator_overloading">
+  <component name="RunManager" selected="Python.pickle_tut">
     <configuration name="2class_static_methods (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2class_static_methods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="8magic_methods_operator_overloading (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +104,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\STUDY\MultiSoft_Python2022\OOP\2class_static_methods.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/8magic_methods_operator_overloading.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decorator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pickle_tut" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pickling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/decorator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pickling/pickle_tut.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="variable_scope" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="regex_tut" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,11 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VariableScopeNameSpace" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Regex" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VariableScopeNameSpace/variable_scope.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Regex/regex_tut.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pickle_tut" />
+        <item itemvalue="Python.regex_tut" />
+        <item itemvalue="Python.8magic_methods_operator_overloading (1)" />
         <item itemvalue="Python.8magic_methods_operator_overloading" />
         <item itemvalue="Python.2class_static_methods (1)" />
-        <item itemvalue="Python.variable_scope" />
-        <item itemvalue="Python.decorator" />
-        <item itemvalue="Python.2class_static_methods" />
       </list>
     </recent_temporary>
   </component>
@@ -202,5 +208,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
