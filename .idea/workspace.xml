@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Pickling/filename" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pickling/mydetails.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pickling/pickle_tut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Regex/exercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Regex/re.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Regex/regex_tut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/build/lib/packagedibya/__inti__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/dist/packagedibya-0.0.1-py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/generation_disbribution.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/packagedibya.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/packagedibya.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/packagedibya.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/packagedibya.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/packagedibya/__inti__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/4encapsulation_tut.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/4encapsulation_tut.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/8magic_methods_operator_overloading.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/8magic_methods_operator_overloading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/generation_disbribution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/generation_disbribution.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
