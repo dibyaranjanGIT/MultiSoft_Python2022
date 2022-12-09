@@ -1,4 +1,4 @@
-download - https://www.jetbrains.com/pycharm/download/#section=windows
+download pycharm = https://www.jetbrains.com/pycharm/download/#section=windows
 
 What is a python project in Pycharm ?
 A project helps you organize your source code, tests, libraries that you use, and your personal settings in a single unit
@@ -6,11 +6,21 @@ A project helps you organize your source code, tests, libraries that you use, an
 How to setup a project using Pycharm
 
 How to use terminal
+python --version # To check the version
 
 how to install new library
 
 How to use python Interpretor in Pycharm
 
 how to Debug in the Pycharm
+
+# How to create a requirment.txt file
+pip freeze > requirments.txt
+
+# To install from the requirments.txt file
+pip install -r requiements.txt
+
+# To install a specific version of library
+# pip install numpy==1.15.4
 
 

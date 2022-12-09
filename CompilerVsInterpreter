@@ -1,0 +1,22 @@
+Interpreter :
+    1.one statement at a time
+    2.An interpreter is needed every time
+    3.Partial execution if an error occurs in the program.
+    4.Easy for programmers.
+
+Compiler :
+    1.Entire program at a time
+    2.Once compiled, it is not needed
+    3.No execution if an error occurs
+    4.Usually not as easy as interpreted once
+
+Extra Compiler:
+    1.The code written in a compiled language must be given to a compiler and we get an executable whcih makes our code
+    Private
+    2.Faster execution , we compiled our code once and execute it multiple times.
+    Disadvantage: the code which is compiled in the windows can't be run in the mac machine = hencne no portable
+
+Extra Interpreter:
+    Portable: here we are providing the source code to run in a different machine.
+    Debugging: here debugging is easier than the compiler language.
+    

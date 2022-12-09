@@ -28,6 +28,8 @@ Visual Studio is a heavyweight IDE, which is used for component-based software d
 ## Comparison of two files
 # in the powershell 'code -d 1.txt 2.txt'
 
+# If you have install Python Preview extension
+# Then right click on the python file and click on Open Preview to the Side 
 
 
 print("Hello World")

@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/how_import_works.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompilerVsInterpreter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion/recursions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter/calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules_external_lib/modules" beforeDir="false" afterPath="$PROJECT_DIR$/ModulesExternalLibrary/modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules_external_lib/modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/ModulesExternalLibrary/modules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PycharmSetup/SetupAndRequired.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PycharmSetup/SetupAndRequired.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisualStudio/vscode.py" beforeDir="false" afterPath="$PROJECT_DIR$/VisualStudio/vscode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
