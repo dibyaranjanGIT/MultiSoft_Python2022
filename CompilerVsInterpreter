@@ -19,4 +19,6 @@ Extra Compiler:
 Extra Interpreter:
     Portable: here we are providing the source code to run in a different machine.
     Debugging: here debugging is easier than the compiler language.
+    Disadvantge: Here to run the code in a different machine we need an interpreter to be install in each machine.
+    Slower : Every time the translation happens for the code hence slower.
     
