@@ -21,4 +21,7 @@ Extra Interpreter:
     Debugging: here debugging is easier than the compiler language.
     Disadvantge: Here to run the code in a different machine we need an interpreter to be install in each machine.
     Slower : Every time the translation happens for the code hence slower.
-    
+
+Compiled - C, C++ etc
+Interpreter - JS, Python, PHP etc
+Hybrid - Java

@@ -1,3 +1,8 @@
+'''
+The OS module in Python provides functions for interacting with the operating system.
+OS comes under Python’s standard utility modules
+'''
+
 import os
 
 # Using listdir we will get a list of all the files and folder present in the current directory

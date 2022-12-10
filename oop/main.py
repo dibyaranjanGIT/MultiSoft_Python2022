@@ -1,5 +1,5 @@
 # Class = Class is a template or blueprint from which we cretes object
-# Object = It is an istance of the class
+# Object = It is an instance of the class
 # Attribute = The characterstics associated with a object
 # Method = The function inside a class
 

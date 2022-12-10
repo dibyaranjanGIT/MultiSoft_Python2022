@@ -47,7 +47,6 @@ class Employee:
     def change_leaves(cls, newleaves):
         cls.no_of_leaves = newleaves
 
-
     @staticmethod
     def printgood(string):
         print("This is good " + string)
