@@ -40,11 +40,12 @@ Code range	Category
 5xx	Server error
 '''
 
-## GET ##
-# import requests
-# api_url = "https://jsonplaceholder.typicode.com/todos/1"
-# response = requests.get(api_url)
-# response.json()
+# GET ##
+import requests
+url = "https://jsonplaceholder.typicode.com/todos/1"
+response = requests.get(url)
+response.json()
+print(response.status_code)
 
 ## POST ##
 '''POST create a new resource '''

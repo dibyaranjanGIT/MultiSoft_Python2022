@@ -7,7 +7,7 @@ class Employee:
         self.salary = 10000
 
     def __str__(self):
-        return 'name ' + self.name + ' salary=$' + str(self.salary)
+        return 'name ' + self.name + ' salary ' + str(self.salary)
 
 
 e1 = Employee()
@@ -23,7 +23,7 @@ e2 = Employee()
 #
 #     def __add__(self, other):
 #         return self.name + other.name
-# #
+#
 # p1 = Person('Dibya')
 # p2 = Person('Jeeban')
 # print(p1 + p2)

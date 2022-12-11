@@ -5,8 +5,10 @@ polymorphism allows us to perform the same action in many different ways.
 The built-in function len() calculates the length of an object depending upon its type. If an object is a string,
 it returns the count of characters, and If an object is a list, it returns the count of items in a list
 
-Advantage of method overriding
+len("Python") # returns 6 as result
+len([1,2,3,4,5,6,7,8,9]) # returns 9 as result
 
+Advantage of method overriding:
 It is effective when we want to extend the functionality by altering the inherited method. Or the method inherited from
  the parent class doesn’t fulfill the need of a child class, so we need to re-implement the same method in the child
  class in a different way.
@@ -16,40 +18,38 @@ Method overriding is useful when a parent class has multiple child classes, and 
 '''
 
 # Example
-print(5 + 6)
-print("DIbya" + "Good")
+# print(5 + 6)
+# print("DIbya" + "Good")
 
 
-class Vehicle:
-
-    def __init__(self, name, color, price):
-        self.name = name
-        self.color = color
-        self.price = price
-
-    def show(self):
-        print('Details:', self.name, self.color, self.price)
-
-    def max_speed(self):
-        print('Vehicle max speed is 150')
-
-    def change_gear(self):
-        print('Vehicle change 6 gear')
+# class Vehicle:
+#     def __init__(self, name, color, price):
+#         self.name = name
+#         self.color = color
+#         self.price = price
+#
+#     def show(self):
+#         print('Details:', self.name, self.color, self.price)
+#
+#     def max_speed(self):
+#         print('Vehicle max speed is 150')
+#
+#     def change_gear(self):
+#         print('Vehicle change 6 gear')
 
 
 # inherit from vehicle class
-class Car(Vehicle):
-    def max_speed(self):
-        print('Car max speed is 240')
-
-    def change_gear(self):
-        print('Car change 7 gear')
-
+# class Car(Vehicle):
+#     def max_speed(self):
+#         print('Car max speed is 240')
 #
-# # Car Object
-# car = Car('Car x1', 'Red', 20000)
+#     def change_gear(self):
+#         print('Car change 7 gear')
+
+## Car Object
+# car = Car('Car Dibya', 'Red', 20000)
 # car.show()
-# # calls methods from Car class
+## calls methods from Car class
 # car.max_speed()
 # car.change_gear()
 
@@ -66,7 +66,7 @@ class Shopping:
         count = len(self.basket)
         # count total items in a different way
         # pair of shoes and shir+pant
-        return count * 2
+        return count**2
 
-shopping = Shopping(['Shoes', 'dress'], 'Jessa')
+shopping = Shopping(['Shoes', 'dress', 'beer'], 'Jeeban')
 print(len(shopping))

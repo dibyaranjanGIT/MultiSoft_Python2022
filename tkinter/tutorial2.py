@@ -11,6 +11,7 @@ root.maxsize(800, 600) # Then you can't maximize below this point
 label = tk.Label(text="GUI App") # This will create a lable
 # but as per the tkinter rule this will not be displayed as we have to pack it to the window.
 label.pack()
+# If you don't your label or title or anytthing for that matter it won't be displayed
 
 
 root.mainloop()

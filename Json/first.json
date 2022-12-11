@@ -1,0 +1,9 @@
+
+{
+  "name": "Dibyaranjan",
+  "feature": "Json is very light and easy to read Java script object",
+  "Never": "Never use single quote in JSON",
+  "shopItem": ["Food", "Dress"],
+  "isGood": true,
+  "isNull": null
+}

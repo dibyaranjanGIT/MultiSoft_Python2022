@@ -11,13 +11,13 @@ class Company:
 class Employee(Company):
     def info(self):
         c_name = super().company_name()
-        print("Dibya works at", c_name)
+        print("Jeeban works at", c_name)
 # Or
 class Employee(Company):
     def info(self):
         # Calling the superclass method using class name function
         c_name = Company().company_name()
-        print("Jessa works at", c_name)
+        print("Jeeban works at", c_name)
 
 emp = Employee()
 emp.info()

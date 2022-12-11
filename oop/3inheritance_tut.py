@@ -10,46 +10,66 @@ instead of creating it from scratch
 
 
 ## Single Inheritance ##
-# Base class
-class Vehicle:
-    def Vehicle_info(self):
-        print('Inside Vehicle class')
+## Base class
+# class Vehicle:
+#     def __init__(self):
+#         print('Inside Vehicle class')
+#
+#     def vehicle_info(self):
+#         return "The vehicle is a four wheeler"
 
-# Child class
-class Car(Vehicle):
-    def car_info(self):
-        print('Inside Car class')
+## Child class
+# class Car(Vehicle):
+#     def __init__(self):
+#         print('Inside Car class')
 
-# Create object of Car
-car = Car()
-
+## Create object of Car
+# car = Car()
+# print(car.vehicle_info())
 
 ## Multiple Inheritance ##
-
-# # Parent class 1
+'''
+In multiple inheritance, a class is derived from more than one class. 
+The child class, in this case, has features of both the parent classes.
+'''
+## Parent class 1
 # class Person:
-#     def person_info(self, name, age):
+#     def person_info(self):
 #         print('Inside Person class')
-#         print('Name:', name, 'Age:', age)
-#
-# # Parent class 2
-# class Company:
-#     def company_info(self, company_name, location):
-#         print('Inside Company class')
-#         print('Name:', company_name, 'location:', location)
-#
-# # Child class
-# class Employee(Person, Company):
-#     def employee_info(self, salary, skill):
-#         print('Inside Employee class')
-#         print('Salary:', salary, 'Skill:', skill)
-#
-# # Create object of Employee
-# emp = Employee()
+#         return "The person is male and his age is 35"
 
+## Parent class 2
+# class Company:
+#     def company_info(self):
+#         print('Company Info ! ')
+#         return "He is belong ABC company"
+
+## Child class
+# class Employee(Person, Company):
+#     def __init__(self, salary, skill):
+#         self.salary = salary
+#         self.skill = skill
+#     def employee_info(self):
+#         print('Inside Employee class')
+#         return f"The employee has salary {self.salary} and has skill {self.skill}"
+
+## Create object of Employee
+# emp = Employee(2000, "Python Dev")
+# print(emp.employee_info())
 
 ## Multilevel Inheritance ##
+'''
+In multilevel inheritance, a class that is already derived from another class is derived by a third class. 
+So in this way, the third class has all the other two former classes' features and functionalities. 
 
+The syntax looks something like this:
+class Parent1:
+    pass
+class Derived1(Parent1):
+    pass
+class Derived2(Derived1):
+    pass
+'''
 # # Base class
 # class Vehicle:
 #     def vehicle_info(self):

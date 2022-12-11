@@ -1,0 +1,6 @@
+Defaulter Name: 'Ram' 
+ Item: beer 	 Price:200
+Defaulter Name: 'Janu' 
+ Item: flower 	 Price:20
+Defaulter Name: 'Ramu' 
+ Item: 100 	 Price:20

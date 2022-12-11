@@ -15,5 +15,9 @@ class Student:
 
 student_one = Student('Jeeban', 20)
 print(student_one.name)
+print(student_one.school_name)
+
+dibya = Student("Dibya", 30)
+print(dibya.school_name)
 
 
