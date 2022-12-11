@@ -21,12 +21,14 @@ class Student:
         self.__age = age
 
 stud = Student('Rama', 14)
-
-# retrieving age using getter
-print('Name:', stud.name, stud.get_age())
-
-# changing age using setter
-stud.set_age(16)
-
-# retrieving age using getter
-print('Name:', stud.name, stud.get_age())
+stud.set_age(20)
+print(stud.get_age())
+#
+# # retrieving age using getter
+# print('Name:', stud.name, stud.get_age())
+#
+# # changing age using setter
+# stud.set_age(16)
+#
+# # retrieving age using getter
+# print('Name:', stud.name, stud.get_age())

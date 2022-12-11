@@ -27,6 +27,7 @@ instead of creating it from scratch
 # car = Car()
 # print(car.vehicle_info())
 
+
 ## Multiple Inheritance ##
 '''
 In multiple inheritance, a class is derived from more than one class. 
@@ -37,14 +38,14 @@ The child class, in this case, has features of both the parent classes.
 #     def person_info(self):
 #         print('Inside Person class')
 #         return "The person is male and his age is 35"
-
+#
 ## Parent class 2
 # class Company:
 #     def company_info(self):
 #         print('Company Info ! ')
 #         return "He is belong ABC company"
-
-## Child class
+#
+# ## Child class
 # class Employee(Person, Company):
 #     def __init__(self, salary, skill):
 #         self.salary = salary
@@ -52,6 +53,10 @@ The child class, in this case, has features of both the parent classes.
 #     def employee_info(self):
 #         print('Inside Employee class')
 #         return f"The employee has salary {self.salary} and has skill {self.skill}"
+#
+# jeeban =Employee(2000,'PYTHON')
+# print(jeeban.company_info())
+
 
 ## Create object of Employee
 # emp = Employee(2000, "Python Dev")
@@ -70,24 +75,24 @@ class Derived1(Parent1):
 class Derived2(Derived1):
     pass
 '''
-# # Base class
+## Base class
 # class Vehicle:
 #     def vehicle_info(self):
 #         print('Inside Vehicle class')
 #
-# # Child class
+# ## Child class
 # class Car(Vehicle):
 #     def car_info(self):
 #         print('Inside Car class')
 #
-# # Child class
+# ## Child class
 # class SportsCar(Car):
 #     def sports_car_info(self):
 #         print('Inside SportsCar class')
-#
-# # Create object of SportsCar
-# s_car = SportsCar()
 
+## Create object of SportsCar
+# s_car = SportsCar()
+# s_car.vehicle_info()
 
 ## Hierarchical Inheritance ##
 '''

@@ -24,23 +24,24 @@ Protected Member: Accessible within the class and its sub-classes ('_')
 #         self.name = name
 #         self.__salary = salary
 #
-# emp = Employee('Jeeban', 10000)
 #
+# emp = Employee('Jeeban', 10000)
+
+# emp.__salary()
 # print('Name:', emp.name)
 # print('Salary:', emp.__salary) ## Not showing
 
 
 ## Protected member ##
-
+#
 # class Company:
 #     def __init__(self):
 #         self._project = "Python"
 #         self.institute = 'MS'
-## child class
+# ## child class
 # class Employee(Company):
 #     def __init__(self, name):
 #         self.name = name
-#         Company.__init__(self)
 #
 #     def show(self):
 #         print("Employee name :", self.name)
