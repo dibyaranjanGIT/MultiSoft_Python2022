@@ -6,13 +6,11 @@ syntax:
 
 '''
 
-c = input("Enter your name")
-try:
-    print(a)
+# How to raise your own error
 
-except Exception as e:
+age = int(input("Please enter your age :"))
 
-    if c =="harry":
-        raise ValueError("Harry is blocked he is not allowed")
-
-    print("Exception handled")
+if 0 < age < 100:
+    pass
+else:
+    raise ValueError("age can't be lesser than 0 and greater that 100")

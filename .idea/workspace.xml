@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Flask/flask_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/NewsGUI/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/NewsGUI/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/NewsGUI/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/NewsGUI/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/NewsGUI/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/garbage/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tutorial10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tutorial11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tutrial12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileIO/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileIO/file_read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileIO/topics.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VariableScope7/scope.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExceptionHandling/main (2).py" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/raise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExceptionHandling/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/exception.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/2class_static_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/2class_static_methods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/3inheritance_tut.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/3inheritance_tut.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/4encapsulation_tut.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/4encapsulation_tut.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/5getter_setter.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/5getter_setter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExceptionHandling/exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/exception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExceptionHandling/raise.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/raise.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,21 +46,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FileIO" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.pyOptions" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\STUDY\MultiSoft_Python2022\FileIO" />
       <recent name="D:\STUDY\MultiSoft_Python2022" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\STUDY\MultiSoft_Python2022\Functions" />
       <recent name="D:\STUDY\MultiSoft_Python2022" />
+      <recent name="D:\STUDY\MultiSoft_Python2022\Functions" />
       <recent name="D:\STUDY\MultiSoft_Python2022\Reading_JSON" />
       <recent name="D:\STUDY\MultiSoft_Python2022\Exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.exceptionn">
+  <component name="RunManager" selected="Python.scope">
     <configuration name="exception" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="file_read" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +91,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/NewsGUI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FileIO" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/NewsGUI/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FileIO/file_read.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tutorial10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="raise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +112,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExceptionHandling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/tutorial10.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExceptionHandling/raise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tutorial11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="scope" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VariableScope7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/tutorial11.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VariableScope7/scope.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +169,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.exceptionn" />
+        <item itemvalue="Python.scope" />
+        <item itemvalue="Python.file_read" />
+        <item itemvalue="Python.raise" />
         <item itemvalue="Python.tutrial12" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.tutorial11" />
-        <item itemvalue="Python.tutorial10" />
       </list>
     </recent_temporary>
   </component>
