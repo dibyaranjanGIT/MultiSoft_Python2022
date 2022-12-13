@@ -12,9 +12,14 @@ root.title("My GUI App")
 def open_file():
     pass
 
+def my_func():
+    pass
+
 menu = Menu(root)
 menu.add_command(label="File", command=open_file)
+menu.add_command(label="Save", command=my_func)
 menu.add_command(label="Exit", command=quit)
+
 
 root.config(menu=menu)
 
