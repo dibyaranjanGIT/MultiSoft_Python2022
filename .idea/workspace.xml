@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ImagePIL/image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImagePIL/pc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImagePIL/pencils.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SendingEmails/email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tkinter14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tutorial13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SendingEmails/emailload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SendingEmails/emailtut1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutrial12.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutrial12.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
