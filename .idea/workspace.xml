@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tkinter/tutorial15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/recursion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operator_8/operatorss.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4Day/Day4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/4Day/Day4.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/recursions.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AirFlow" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -50,6 +54,7 @@
       <recent name="D:\STUDY\MultiSoft_Python2022" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\STUDY\MultiSoft_Python2022\Operator_8" />
       <recent name="D:\STUDY\MultiSoft_Python2022" />
       <recent name="D:\STUDY\MultiSoft_Python2022\Functions" />
       <recent name="D:\STUDY\MultiSoft_Python2022\Reading_JSON" />
