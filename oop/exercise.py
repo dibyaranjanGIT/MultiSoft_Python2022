@@ -1,48 +1,42 @@
-# create a MultiSoft Library
-# Create a four methods inside this MS library
-# display the books
-# lend the book
-# add book
-# return book
-
-## Constructor = ListOfbooks, library name
-
-## create a dictionary to have the lenders name and book name
-
-## Run a loop to ask the user to display the books, lend the book, add book and return book
+"""
+Q1.
+Create a Python class called BankAccount which represents a bank account, having as attributes: accountNumber (numeric type), name (name of the account owner as string type), balance.
+Create a constructor with parameters: accountNumber, name, balance.
+Create a Deposit() method which manages the deposit actions.
+Create a Withdrawal() method  which manages withdrawals actions.
+Create an bankFees() method to apply the bank fees with a percentage of 5% of the balance account.
+Create a display() method to display account details.
+Give the complete code for the  BankAccount class.
+"""
 
 
-
-# Create a library class
-# display book
-# lend book - (who owns the book if not present)
-# add book
-# return book
-
-# HarryLibrary = Library(listofbooks, library_name)
-
-
-#dictionary (books-nameofperson)
-
-# create a main function and run an infinite while loop asking
-# users for their input
-
-
-class Library:
-    def __init__(self, booklist, name):
-        self.booksList = booklist
+class Bankaccount:
+    def __init__(self, account_number, name, balance):
+        self.acountNumber = account_number
         self.name = name
-        self.lendDict = {}
+        self.__balance = balance
 
-    def displayBooks(self):
-        pass
+    def deposite(self, dep_amount):
+        self.balance = dep_amount + self.balance
 
-    def lendBook(self, user, book):
-        pass
+    def withdrawl(self, wid_amount):
+        self.balance = self.balance - wid_amount
 
-    def addBook(self, book):
-        pass
+    def bankfees(self):
+        self.balance = self.balance - (self.balance * 5) / 100
 
-    def returnBook(self, book):
-        pass
+    def display(self):
+        return f"Name is {self.name} \n Account Number: {self.acountNumber} \n Balance: {self.balance}"
 
+
+bc = Bankaccount(123, "Jeeban", 20000)
+print(bc.name)
+
+"""
+Q2.
+Create a Python class Person with attributes: name and age of type string.
+Create a display() method that displays the name and age of an object created via the Person class.
+Create a child class Student  which inherits from the Person class and which also has a section attribute.
+Create a method displayStudent() that displays the name, age and section of an object created via the Student class.
+Create a student object via an instantiation on the Student class and then test the displayStudent method.
+"""

@@ -23,6 +23,7 @@ root.title("MY GUI") # To change the title of your GUI
 # lable = tk.Label(text="This is a demo GUI app", bg='red', fg='blue', padx=23, pady=20,
 #                  font=("comicsanms", 19, "bold"))
 # lable.pack()
+
 ## or you can pass the font as a string
 # lable = tk.Label(text="This is a demo GUI app", bg='red', fg='blue', padx=23, pady=20,
 #                  font="comicsanms 19 bold")
@@ -46,7 +47,6 @@ root.title("MY GUI") # To change the title of your GUI
 lable = tk.Label(text="This is a demo GUI app", bg='red', fg='blue', padx=23, pady=20,
                  font="comicsanms 19 bold")
 # lable.pack(anchor='nw', side="bottom", fill='x')
-lable.pack(anchor='nw', side="bottom", fill='y')
 
 
 

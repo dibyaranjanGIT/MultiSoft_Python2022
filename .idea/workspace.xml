@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tkinter/tutorial16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tutorial17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSLibrary/new_test/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSLibrary/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/7abstraction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/8super()_inherit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/9magic_methods_operator_overloading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter/exercise1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter/favi.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter/tutorial18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter/tutorial19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter/tutorial20.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSLibrary/python_OS.py" beforeDir="false" afterPath="$PROJECT_DIR$/OSLibrary/python_OS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/5getter_setter.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/5getter_setter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/6polymorphisim.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/6polymorphisim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/7super()_inherit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/8magic_methods_operator_overloading.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter/detail.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter/tutorial1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter/tutorial2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter/tutorial3.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter/tutorial4.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter/tutorial5.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,29 +78,8 @@
       <recent name="D:\STUDY\MultiSoft_Python2022\Exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tutorial17">
-    <configuration name="image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MultiSoft_Python2022" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ImagePIL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImagePIL/image.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tutorail14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.tutorial20">
+    <configuration name="tutorial19" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +91,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/tutorail14.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/tutorial19.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tutorial15" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tutorial20" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,7 +112,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/tutorial15.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/tutorial20.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tutorial16" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tutorial4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,7 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/tutorial16.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/tutorial4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tutorial17" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tutorial5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,7 +154,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/tutorial17.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/tutorial5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tutorial6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiSoft_Python2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/tutorial6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tutorial17" />
-        <item itemvalue="Python.tutorial16" />
-        <item itemvalue="Python.tutorial15" />
-        <item itemvalue="Python.tutorail14" />
-        <item itemvalue="Python.image" />
+        <item itemvalue="Python.tutorial20" />
+        <item itemvalue="Python.tutorial19" />
+        <item itemvalue="Python.tutorial6" />
+        <item itemvalue="Python.tutorial5" />
+        <item itemvalue="Python.tutorial4" />
       </list>
     </recent_temporary>
   </component>
