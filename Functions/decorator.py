@@ -4,6 +4,7 @@ the original function
 '''
 
 ## Note in Python we can pass a function as an argument to another function
+## This concept is also called Heigher Order function
 
 # import time
 #

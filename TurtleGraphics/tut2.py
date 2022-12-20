@@ -1,9 +1,13 @@
-## Pen up and move forward
+## Tutle properties
 
 from turtle import Turtle, Screen
 
 bob = Turtle()  # This is the new turtle class object
 bob.shape("turtle")
+
+bob.color('red') # To change the color of the turtle
+bob.forward(100) # To move forward by 100 places
+bob.right(90) # To make the turtle turn right
 
 bob.forward(20)
 bob.penup()

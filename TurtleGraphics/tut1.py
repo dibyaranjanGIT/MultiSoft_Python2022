@@ -3,14 +3,15 @@ Documentation : https://docs.python.org/3/library/turtle.html
 Turtle module uses tkinter under the hood to create GUI
 '''
 
-# Creating our first program
+# Creating our first program and screen properties
 from turtle import Turtle, Screen
 
 bob = Turtle()  # This is the new turtle class object
 bob.shape("turtle") # To change the shape of the turtle
-bob.color('red') # To change the color of the turtle
-bob.forward(100) # To move forward by 100 places
-bob.right(90) # To make the turtle turn right
+
 
 screen = Screen()  # This screen helps us to have the turtle in the window
+screen.setup(width=500, height=500) # This will setup the width and height of the window
+screen.title("My GUI") # To setup the title of your window
+screen.bgcolor("black") # Changing the background color of Turtle
 screen.exitonclick()  # To exit on click

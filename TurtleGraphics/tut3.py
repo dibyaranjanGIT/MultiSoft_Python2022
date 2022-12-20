@@ -11,6 +11,7 @@ from turtle import Turtle, Screen
 
 bob = Turtle()  # This is the new turtle class object
 bob.shape("turtle")
+#bob.shape("square")
 
 bob.forward(50)
 bob.setheading(90)
