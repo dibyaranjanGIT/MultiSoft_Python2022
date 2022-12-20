@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OSLibrary/new_test/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSLibrary/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/7abstraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/8super()_inherit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/9magic_methods_operator_overloading.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/exercise1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/favi.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tutorial18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tutorial19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tutorial20.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSLibrary/python_OS.py" beforeDir="false" afterPath="$PROJECT_DIR$/OSLibrary/python_OS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/5getter_setter.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/5getter_setter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/6polymorphisim.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/6polymorphisim.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/7super()_inherit.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/8magic_methods_operator_overloading.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/detail.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial3.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial4.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial5.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisualStudio/vscode.py" beforeDir="false" afterPath="$PROJECT_DIR$/VisualStudio/vscode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

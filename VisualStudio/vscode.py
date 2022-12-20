@@ -31,6 +31,8 @@ Visual Studio is a heavyweight IDE, which is used for component-based software d
 # If you have install Python Preview extension
 # Then right click on the python file and click on Open Preview to the Side 
 
+## How to set up interpreter in VS COde
+# ctrl + shift + p
 
 print("Hello World")
 a = input("Provide input :")
