@@ -1,0 +1,10 @@
+click on your profile
+click on Manage your Google account
+click on Security
+turn on 2-Step Verification
+- after turn on the two step verification
+click on App Password
+Select App as Other
+- fnjezfjlzwhbxxxx
+
+Check the spam if it not in your input folder.
