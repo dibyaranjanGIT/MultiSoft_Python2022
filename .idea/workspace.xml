@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TurtleGraphics/execeris5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TurtleGraphics/tut4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TurtleGraphics/tut5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TurtleGraphics/tut6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TurtleGraphics/tut7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TurtleGraphics/tut8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functions/decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/decorator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TurtleGraphics/tut1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TurtleGraphics/tut1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TurtleGraphics/tut2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TurtleGraphics/tut2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TurtleGraphics/tut3.py" beforeDir="false" afterPath="$PROJECT_DIR$/TurtleGraphics/tut3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,28 +57,7 @@
       <recent name="D:\STUDY\MultiSoft_Python2022\Exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tut7">
-    <configuration name="execeris5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MultiSoft_Python2022" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TurtleGraphics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TurtleGraphics/execeris5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.tut8">
     <configuration name="tut1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,13 +142,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tut8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiSoft_Python2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TurtleGraphics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TurtleGraphics/tut8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tut8" />
         <item itemvalue="Python.tut7" />
         <item itemvalue="Python.tut6" />
         <item itemvalue="Python.tut2" />
         <item itemvalue="Python.tut1" />
-        <item itemvalue="Python.execeris5" />
       </list>
     </recent_temporary>
   </component>
