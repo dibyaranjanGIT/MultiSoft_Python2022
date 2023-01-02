@@ -1,0 +1,248 @@
+Linux Commands session 1
+        ===================================
+
+
+
+
+
+
+
+
+date and calendar commands
+============================
+
+
+date (gives todays date)
+cal (gives calendar of current month)
+cal -y (gives calendar for current year)
+cal 2018 (will give calendar for year 2018)
+cal 2 1993 If you want to view the calendar of February 1993 
+clear or ctrl + l to clear the screen
+exit
+
+
+
+
+
+
+Linux File System
+====================
+
+
+it has a tree like structure
+
+
+in windows we say as folder however in linux we say as directory.
+
+
+The first directory (top most) in our directory tree is called the root directory.
+It is represented by a forward slash /
+
+
+each user is given a home directory.
+
+
+Under each directory , we have two special directories
+(1) The current directory represented as . 
+(2) The parent directory represented as .. 
+
+
+An absolute path begins with the root directory and follows the directory tree branch by branch 
+until the path to the desired directory or file is completed.
+Example
+/home/john/documents/phone.txt
+
+
+A relative path starts from the current working directory.
+Example
+if our current working directory is john 
+then ./documents/phone.txt is relative path of the file phone.txt
+
+
+● The root directory is represented as / 
+● The home directory is represented as ~
+● The current directory is represented as .
+● The parent directory is represeted as .. 
+● The previous directory is represented as ­-
+
+
+
+
+Navigating using cd
+
+
+Using ls to list
+
+
+
+
+ls command options
+==================
+ls ­-a
+This will list all the files in your current working directories including hidden files that start with .
+
+
+ls ­-l
+That's a long listing It shows many important information about a file. 
+Permissions,Number of Links,Owner,Group,File size,Modification Date,File name
+
+
+ls ­-t This will list the files sorted by modification date. Newest first 
+
+
+ls ­-r This will list the files in reversed fashion.
+
+
+ls ­-R
+
+
+For example, Imagine if you have a directory named dir1 on your desktop, and inside dir1 you have a subdirectory named dir2.
+Now, if you type ls ­-R dir1, Then this will list the contents of dir1 and dir2.
+if dir2 has another subdirectory dir3 then ls ­-R dir1 will also list the files of dir3 and so on.
+
+
+if you executed ls ­-R / 
+then this will list all the files (non hidden) on your system
+
+
+combining commands
+====================
+
+
+if you want to list all the files including hidden files on your system ?
+● You can just combine the ­-a option with the ­-R option as follows.
+● ls ­-R ­-a 
+● An easier way is ls ­-Ra 
+or ls -aR
+
+
+ls ­-latR / will make a long listing of all the files on your system sorted 
+by modification date (newest first).
+
+
+If you want to list the files in reverse order based on time Then we can combine ­-r and ­-t so , ls ­-tr will list the files sorted by modification date (Oldest first)
+
+
+
+Linux Session 2
+=================
+
+
+1. touch command
+
+
+is to create an empty file.
+
+
+touch file1
+
+
+you can change the timestamp of an existing file.
+
+
+touch file1
+
+
+
+
+2. mkdir command
+
+
+this command is used to create a new directory.
+
+
+mkdir dir1
+
+
+mkdir dir2 dir3 dir4
+
+
+
+
+
+
+3. rmdir command
+
+
+this command is used to delete or remove a directory.
+
+
+the below command will only work if dir1 is empty.
+rmdir dir1
+
+
+
+
+4. change directory using cd
+
+
+cd dir2
+
+
+create files inside dir2 using touch command
+
+
+touch file1 file2 file3
+
+
+cd ..
+
+
+rmdir dir2 (this will give error saying directory not empty)
+
+
+
+
+
+
+5. rm command 
+
+
+this command is used to delete files or even directories.
+
+
+rm file1 (to remove a file)
+
+
+rm -R dir2 (to remove a directory recursively)
+
+
+
+
+
+
+6. cp command
+
+
+used to copy the files or directories
+
+
+cp file1 file2 (will create a copy of an existing file named file1 with the name file2)
+
+
+cp file1 dir3 (will copy the file1 into directory3)
+
+
+cp -R dir5 dir6 (will copy the entire dir5 inside directory6 recursively)
+
+
+
+
+
+
+7. mv command
+
+
+to move a file from one folder to another.
+
+
+to rename a file
+
+
+cd ../..
+
+
+mv file1 file8 (will rename file1 to file8)
+
+
+mv file8 dir4 (will move the file8 to dir4, its like a cut and paste)

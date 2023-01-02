@@ -1,0 +1,19 @@
+-- New Environment
+conda create -n pytorch python=3.7
+conda activate pytorch		
+
+
+-- To be able to use the environment in the Jupyter notebook
+pip install ipykernel
+python -m ipykernel install --user --name pytorch --display-name "pytorch"
+
+
+-- Environment Path
+C:\Users\DIBYARANJAN-PC\anaconda3\envs
+
+-- To check the environment created
+conda env list
+
+-- To remove an environment
+conda env remove -n demo 
+

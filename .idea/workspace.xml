@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Email/birthday_wisher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Email/birthdays.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/chromedriver_win32/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/selenium_intro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/tut1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/tut2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/tut3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/tut4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/tut5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Environmet_Creation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/linux_commands.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resume/FresherResumeFormat.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/excercise2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium/interaction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium/signin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/cookie_clicker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics7.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +64,8 @@
       <recent name="D:\STUDY\MultiSoft_Python2022\Exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tut5">
-    <configuration name="tut1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.exercise1">
+    <configuration name="exercise1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +77,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/tut1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/exercise1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exercise1" />
         <item itemvalue="Python.tut5" />
         <item itemvalue="Python.tut4" />
         <item itemvalue="Python.tut3" />
         <item itemvalue="Python.tut2" />
-        <item itemvalue="Python.tut1 (1)" />
       </list>
     </recent_temporary>
   </component>
