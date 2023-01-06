@@ -1,3 +1,8 @@
+"""
+Tkinter is a way in Python to create Graphical User interfaces (GUIs) and it's the only framework built into the
+Python standard library.
+"""
+
 from tkinter import Tk
 
 root = Tk() # This will open an instance of tk class

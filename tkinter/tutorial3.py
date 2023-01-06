@@ -1,15 +1,16 @@
 ## How to add image to the tkinter root window
 
-import tkinter as tk
-from PIL import Image, ImageTk
+from tkinter import Tk, Label, PhotoImage
+# from PIL import Image, ImageTk
 
-root = tk.Tk()
+root = Tk()
 
 root.geometry("800x600")
 
 ## To add a photo to the window
-photo = tk.PhotoImage(file="funny-face.png") # it only support png
-label = tk.Label(image=photo)
+photo = PhotoImage(file="funny-face.png")
+## Note PhotoImage class only supports png file
+label = Label(image=photo)
 label.pack()
 
 ## To show jpg image we have to make use of the Pillow library from python

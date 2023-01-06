@@ -1,11 +1,11 @@
-## Attributes and Labels
+## How to set properties of Widgets
 import tkinter as tk
 
 root = tk.Tk()
 root.geometry("800x600")
-root.title("MY GUI") # To change the title of your GUI
+root.title("MY GUI")
 
-## Important lable information
+## Widgets properties
 # text = add the text
 # bd = background
 # fg = foreground
@@ -13,6 +13,9 @@ root.title("MY GUI") # To change the title of your GUI
 # padx = x padding
 # pady = y padding
 # relief = border styling - SUNKEN, RAISED, GROOVE, RIDGE
+
+# lable = tk.Label(text="This is a demo GUI app")
+# lable.pack()
 
 # lable = tk.Label(text="This is a demo GUI app", bg='red', fg='blue')
 # lable.pack()
@@ -39,15 +42,33 @@ root.title("MY GUI") # To change the title of your GUI
 #                  font="comicsanms 19 bold")
 # lable.pack(anchor='nw') # nw means north west
 
-# lable = tk.Label(text="This is a demo GUI app", bg='red', fg='blue', padx=23, pady=20,
-#                  font="comicsanms 19 bold")
-# lable.pack(anchor='nw', side="bottom") # side is bottom
 
-## Fill is to fill the entire length of the window
+'''
+side − Determines which side of the parent widget packs against: 
+TOP (default), BOTTOM, LEFT, or RIGHT.
+'''
 lable = tk.Label(text="This is a demo GUI app", bg='red', fg='blue', padx=23, pady=20,
                  font="comicsanms 19 bold")
+lable.pack(anchor='c', side="bottom")
+
+## Fill is to fill the entire length of the window
+# lable = tk.Label(text="This is a demo GUI app", bg='red', fg='blue', padx=23, pady=20,
+#                  font="comicsanms 19 bold")
 # lable.pack(anchor='nw', side="bottom", fill='x')
 
 
 
 root.mainloop()
+
+## How anchow works
+"""
+|-------------------|
+|                   |
+| NW     N      NE  |
+|                   |
+| W      C       E  |
+|                   |
+| SW     S      SE  |
+|                   |
+|-------------------|
+"""

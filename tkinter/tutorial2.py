@@ -1,3 +1,4 @@
+# Properties associated with root window
 import tkinter as tk
 
 root = tk.Tk()
@@ -8,10 +9,9 @@ root.minsize(300, 150) # Then you can't minimize below this point
 # width, height
 # root.maxsize(800, 600) # Then you can't maximize below this point
 
-label = tk.Label(text="GUI App") # This will create a lable
-# but as per the tkinter rule this will not be displayed as we have to pack it to the window.
-label.pack()
-# If you don't your label or title or anytthing for that matter it won't be displayed
-
+# To change the title of your GUI
+root.title("MY GUI")
 
 root.mainloop()
+
+

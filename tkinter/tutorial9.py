@@ -29,7 +29,7 @@ agreed_to_admit = tk.BooleanVar()
 name_entry = tk.Entry(textvariable=name_value)
 phone_entry = tk.Entry(textvariable=phone_value)
 gender_entry = tk.Entry(textvariable=gender_value)
-agree_check = tk.Checkbutton(text='I agree',textvariable=agreed_to_admit)
+agree_check = tk.Checkbutton(text='I agree', textvariable=agreed_to_admit)
 
 name_entry.grid(row=1, column=3)
 phone_entry.grid(row=2, column=3)

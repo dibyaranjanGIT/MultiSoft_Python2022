@@ -1,4 +1,6 @@
 ## Canvas widget creation
+## The Canvas widget supplies graphics facilities for Tkinter.
+
 import tkinter as tk
 
 root = tk.Tk()
@@ -24,6 +26,5 @@ canvas_widget.create_text(200, 200, text="Python")
 
 # The oval is created inside an rectangle hence we are passing in the coordinates.
 canvas_widget.create_oval(300, 300, 200, 200)
-
 
 root.mainloop()
