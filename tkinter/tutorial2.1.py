@@ -15,7 +15,7 @@ root.minsize(300, 150) # Then you can't minimize below this point
 
 label = Label(text="GUI App") # This will create a lable
 ## but as per the tkinter rule this will not be displayed as we have to pack it to the window.
-# label.pack()
+label.pack()
 
 
 root.mainloop()

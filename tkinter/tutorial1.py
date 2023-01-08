@@ -3,8 +3,9 @@ Tkinter is a way in Python to create Graphical User interfaces (GUIs) and it's t
 Python standard library.
 """
 
-from tkinter import Tk
+# from tkinter import Tk
+import tkinter as tk
 
-root = Tk() # This will open an instance of tk class
+root = tk.Tk() # This will open an instance of tk class
 
 root.mainloop() # keep yourself in the GUI window

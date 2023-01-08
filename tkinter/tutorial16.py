@@ -1,23 +1,39 @@
+# How to creat Listbox widget using tkinter.
 """
 The Listbox() widget is a standard Tkinter widget that displays a list of items from which a user can select a number of
  items. The Listbox can only contain text items, and all items must have the same font and color. Depending on the widget configuration, the user can choose one or more alternatives from the list.
 """
+
 from tkinter import *
 
+# create a root window.
 root = Tk()
-root.geometry("455x223")
-root.title("List box widget")
+root.geometry("600x350")
 
-lbx = Listbox(root)
-lbx.pack()
-lbx.insert(END, "First Item")
-i = 0
-def add():
-    global i
-    lbx.insert(ACTIVE, f"item{str(i)}") # This ACTIVE keyword will insert the item in the next
-    i = i+1
+# create listbox object
+listbox = Listbox(root, height = 10, width = 15, bg = "grey", font = "Helvetica", fg = "yellow")
 
-button = Button(root, text="Add item", command=add)
-button.pack()
+# Define a label for the list.
+label = Label(root, text = " FOOD ITEMS")
 
+# insert elements by their
+# index and names.
+listbox.insert(1, "Samosa")
+listbox.insert(2, "Dahibara")
+listbox.insert(3, "Aloochop")
+listbox.insert(4, "Pizza")
+listbox.insert(5, "IceCream")
+
+# pack the widgets
+label.pack()
+listbox.pack()
+
+
+# Display until User
+# exits themselves.
 root.mainloop()
+
+
+
+
+

@@ -17,6 +17,7 @@ root.title("MY GUI")
 #     pass
 
 # Define a function to display the message
+# here e is the event that we passed in.
 def display_text(e):
     print("You clicked on the button")
 
@@ -25,5 +26,6 @@ widget = tk.Button(root, text='Click here')
 widget.pack()
 
 widget.bind('<Button-1>', display_text)
+
 
 root.mainloop()

@@ -1,7 +1,7 @@
 ## How to add image to the tkinter root window
 
 from tkinter import Tk, Label, PhotoImage
-# from PIL import Image, ImageTk
+from PIL import Image, ImageTk
 
 root = Tk()
 
@@ -16,7 +16,7 @@ label.pack()
 ## To show jpg image we have to make use of the Pillow library from python
 # image = Image.open("funny-face.jpg")
 # photo = ImageTk.PhotoImage(image=image)
-# label = tk.Label(image=photo)
+# label = Label(image=photo)
 # label.pack()
 
 root.mainloop()

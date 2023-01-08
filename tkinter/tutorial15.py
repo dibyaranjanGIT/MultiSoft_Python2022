@@ -7,7 +7,6 @@ root.geometry("455x223")
 root.title("Radio Button Tutorial")
 
 def order_():
-
     tmsg.showinfo("Order", f"You ordered {var.get()}")
 
 # var = IntVar()

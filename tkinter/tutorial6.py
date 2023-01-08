@@ -6,8 +6,8 @@ root = tk.Tk()
 root.geometry("800x600")
 root.title("MY GUI")
 
-frame = tk.Frame(root, bg="yellow", borderwidth=6)
-frame.pack(side='left', fill="y", padx=300)
+frame = tk.Frame(root,  borderwidth=20)
+frame.pack(side='left', fill="y", padx=300, pady=100)
 
 button = tk.Button(frame, fg='red', text='Click here')
 button.pack(side='top')

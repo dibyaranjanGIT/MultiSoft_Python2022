@@ -1,3 +1,9 @@
+'''
+Create an application which will width and hight as
+Entry input from the user and resize the root window accordingly
+'''
+
+
 from tkinter import *
 
 
