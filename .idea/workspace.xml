@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tkinter/tutorial12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter/tutorial16.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/KBC/kbc_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESTApi/cafes.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESTApi/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESTApi/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/exercise1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial11.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial13.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial15.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial16.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial2.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial3.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial4.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial6.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial7.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial8.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial8.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tutorial8.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tutorial8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +60,8 @@
       <recent name="D:\STUDY\MultiSoft_Python2022\Reading_JSON" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tutorial18">
-    <configuration name="tutorial16" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.kbc_python">
+    <configuration name="kbc_python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +69,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project/KBC" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/tutorial16.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/KBC/kbc_python.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.kbc_python" />
         <item itemvalue="Python.tutorial18" />
         <item itemvalue="Python.tutorial20" />
         <item itemvalue="Python.tutorial17" />
         <item itemvalue="Python.tutorial16.1" />
-        <item itemvalue="Python.tutorial16" />
       </list>
     </recent_temporary>
   </component>
