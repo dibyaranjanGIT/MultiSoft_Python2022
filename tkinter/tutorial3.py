@@ -7,9 +7,9 @@ root = Tk()
 
 root.geometry("800x600")
 
-## To add a photo to the window
+# To add a photo to the window
 photo = PhotoImage(file="funny-face.png")
-## Note PhotoImage class only supports png file
+# Note PhotoImage class only supports png file
 label = Label(image=photo)
 label.pack()
 

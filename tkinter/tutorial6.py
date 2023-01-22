@@ -12,10 +12,8 @@ frame.pack(side='left', fill="y", padx=300, pady=100)
 button = tk.Button(frame, fg='red', text='Click here')
 button.pack(side='top')
 
-button2 = tk.Button(frame, fg='red', text='Click here')
-button2.pack(side='top', pady=50)
-
-
+button2 = tk.Button(fg='red', text='Click here')
+button2.pack(side='top', pady=70)
 
 
 root.mainloop()

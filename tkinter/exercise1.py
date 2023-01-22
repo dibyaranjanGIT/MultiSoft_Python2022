@@ -1,5 +1,5 @@
 '''
-Create an application which will width and hight as
+Create an application which will width and height as
 Entry input from the user and resize the root window accordingly
 '''
 

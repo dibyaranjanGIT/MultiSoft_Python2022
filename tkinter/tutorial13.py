@@ -1,4 +1,6 @@
 ## Menus and Submenus
+
+
 from tkinter import Tk, Menu
 
 canvas_width = 600
@@ -15,29 +17,19 @@ def my_func():
     pass
 
 
-def my_func1():
-    pass
-
-
-m1 = Menu(menubar, tearoff=0) # tearoff allows you to detach menus for the main window creating floating menus
-m1.add_command(label="Save", command=my_func)
-m1.add_command(label="Save As", command=my_func1)
-m1.add_separator()
-m1.add_command(label="Exit", command=root.quit)
+file_menu = Menu(menubar, tearoff=0)  # tear off allows you to detach menus for the main window creating floating menus
 
 root.config(menu=menubar)
-menubar.add_cascade(label="Menu", menu=m1)
+menubar.add_cascade(label="File", menu=file_menu)
 
-#######################################
+file_menu.add_command(label="Save", command=my_func) # To add_command is to add functionality to our menu
+file_menu.add_command(label="Exit", command=quit)
+'''
+To display the menu in root we have to use Config and Cascade just like Pack and Grid
 
-# m2 = Menu(menubar, tearoff=0)
-# m2.add_command(label="Save", command=my_func)
-# m2.add_command(label="Save As", command=my_func1)
-# m2.add_separator()
-# m2.add_command(label="Exit", command=quit)
-#
-# root.config(menu=menubar)
-# menubar.add_cascade(label="Edit", menu=m2)
+Config can be used in other widgets as well like Lable, 
+Button and it it used to update the things in real time
+'''
 
 
 root.mainloop()

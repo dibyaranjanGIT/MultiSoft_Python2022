@@ -14,5 +14,8 @@ frame.pack(side='left', fill="y", padx=20)
 label = Label(frame, text="My GUI Application")
 label.pack()
 
+label = Label(text="My GUI Application")
+label.pack()
+
 
 root.mainloop()

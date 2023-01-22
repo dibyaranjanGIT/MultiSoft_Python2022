@@ -4,11 +4,11 @@ map(), filter, and reduce() in Python. These functions are most commonly used wi
 '''
 
 ## SYNTAX:
-# map(function, iterable)
+## map(function, iterable)
 
-items = [1, 2, 3, 4, 5]
-even_number=list(map((lambda x: x**2), items))
-print(even_number)
+# items = [1, 2, 3, 4, 5]
+# even_number=list(map((lambda x: x**2), items))
+# print(even_number)
 
 
 '''
@@ -17,9 +17,16 @@ the elements and values that satisfy the condition or, in other words, return tr
 '''
 
 ## SYNTAX:
-# filter(function, iterable)
+## filter(function, iterable)
 
-a = [1,2,3,4,5,6]
-b = [2,5,0,7,3]
-c= list(filter(lambda x: x in a, b))
-print(c)
+# a = [1,2,3,4,5,6]
+# b = [2,5,0,7,3]
+# c= list(filter(lambda x: x in a, b))
+# print(c)
+
+# Reduce function works same as MAP and FILTER but we have to import it first
+# *IMP* Reduce function works on two input at a time
+from functools import reduce
+a = [4, 5, 6]
+sum_numbers = reduce(lambda x, y: x + y, a)
+print(sum_numbers)

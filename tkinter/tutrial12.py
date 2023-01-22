@@ -1,27 +1,26 @@
-## Menus and Submenus
-from tkinter import Tk, Menu
+import tkinter as tk
 
-canvas_width = 600
-canvas_height = 400
+root = tk.Tk()
+root.geometry('200x300')
 
-root = Tk()
-root.geometry(f"{canvas_width}x{canvas_height}")
+height_value = tk.IntVar()
+width_value = tk.IntVar()
 
-root.title("My GUI App")
+def change_geometry():
+    root.geometry(f"{height_value.get()}x{width_value.get()}")
 
-def open_file():
-    pass
+label1 = tk.Label(text='Height ')
+label1.grid(row=0, column=0)
+height_ent = tk.Entry(root,textvariable=height_value)
+height_ent.grid(row=0, column=1)
 
-def my_func():
-    pass
-
-menu = Menu(root)
-menu.add_command(label="File", command=open_file)
-menu.add_command(label="Save", command=my_func)
-menu.add_command(label="Exit", command=quit)
+label1 = tk.Label(text='Width ')
+label1.grid(row=1,column=0)
+height_ent = tk.Entry(root, textvariable=width_value)
+height_ent.grid(row=1,column=1)
 
 
-root.config(menu=menu)
-
+button1 = tk.Button(root,text="submit", command=change_geometry)
+button1.grid(row=2, column=1)
 
 root.mainloop()

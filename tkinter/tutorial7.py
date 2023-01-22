@@ -10,17 +10,17 @@ root.title("MY GUI")
 def hello():
     print("Hello Jeeban")
 
-frame = tk.Frame(root, bg="yellow", borderwidth=6)
-frame.pack(side='left', fill="y", padx=100)
 
-frame1 = tk.Frame(root, bg="green", borderwidth=6)
-frame1.pack(side='left', fill="y", padx=150)
 
-button = tk.Button(frame, fg='red', text='Click here', command=hello)
-button.pack(side='top')
 
-label = tk.Label(frame1, text="Hello")
-label.pack()
+# frame1 = tk.Frame(root, bg="green", borderwidth=6)
+# frame1.pack(side='left', fill="y", padx=150)
+
+button = tk.Button( fg='red', text='Click here', command=hello)
+button.pack(anchor='c',pady=100)
+
+# label = tk.Label(frame1, text="Hello")
+# label.pack()
 
 
 root.mainloop()

@@ -6,7 +6,7 @@ root.geometry("800x600")
 root.title("MY GUI")
 
 ## Widgets properties
-# text = add the text
+# text/image = add the text/ add image
 # bg = background
 # fg = foreground
 # font = sets the font
@@ -38,9 +38,9 @@ root.title("MY GUI")
 # lable.pack()
 
 # ## Postion of the lable
-# lable = tk.Label(text="This is a demo GUI app", bg='red', fg='blue', padx=23, pady=20,
-#                  font="comicsanms 19 bold")
-# lable.pack(anchor='c') # nw means north west
+lable = tk.Label(text="This is a demo GUI app", bg='red', fg='blue', padx=23, pady=20,
+                 font="comicsanms 19 bold", relief="groove")
+lable.pack(anchor='c') # nw means north west
 
 
 '''
@@ -52,9 +52,10 @@ TOP (default), BOTTOM, LEFT, or RIGHT.
 # lable.pack(anchor='c', side="bottom")
 
 ## Fill is to fill the entire length of the window
-lable = tk.Label(text="This is a demo GUI app", bg='red', fg='blue', padx=23, pady=20,
-                 font="comicsanms 19 bold")
-lable.pack(anchor='nw', side="bottom", fill='x', expand=True)
+# lable = tk.Label(text="This is a demo GUI app", bg='red', fg='blue', padx=23, pady=20,
+#                  font="comicsanms 19 bold")
+# lable.pack(anchor='nw', fill='x')
+# lable.pack(anchor='sw', side="bottom", fill='x')
 
 
 

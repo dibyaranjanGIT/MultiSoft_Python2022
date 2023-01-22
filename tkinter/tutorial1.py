@@ -6,6 +6,7 @@ Python standard library.
 # from tkinter import Tk
 import tkinter as tk
 
-root = tk.Tk() # This will open an instance of tk class
+root = tk.Tk()  # This will create an instance of tk class and it creates a window
 
-root.mainloop() # keep yourself in the GUI window
+root.mainloop()  # keep yourself in the GUI window
+

@@ -1,6 +1,5 @@
-## How to create message box
-
-## Radio buttons
+# How to create message box
+# Radio buttons
 from tkinter import *
 import tkinter.messagebox as tmsg
 
@@ -9,12 +8,9 @@ root.geometry("455x223")
 root.title("Radio Button Tutorial")
 
 def show_message():
-    tmsg.showinfo("Message", "This is a message from tkinter")
+    tmsg.askokcancel("Message", "This is a message from tkinter")
 
 
-label = Label(root, text='Click on the below button', justify=LEFT, padx=14,
-              font='lucdia 10')
-label.pack()
 
 button = Button(text="Show message", padx=30, command=show_message)
 button.pack()
