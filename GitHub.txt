@@ -1,0 +1,75 @@
+GitHub :
+Git is a distributed version control system for tracking changes in source code during software development. Git allows multiple developers to work on the same codebase simultaneously and keeps track of changes made to the code, making it easy to revert back to previous versions if necessary.
+
+md is a markdown file -> To have baisc info about the repo.
+
+Repository:
+In Git, a repository is a central location in which data is stored and managed
+
+
+Local <---> Staging <---> Remote
+
+Installation of GIT
+https://git-scm.com/
+
+git init => "git init" is a Git command that is used to create a new Git repository. Git creates a hidden ".git" directory in the current directory, which contains all the necessary metadata for the repository, such as a reference to the current branch, the Git index, and a set of configuration files
+
+git status => git status" is a Git command that displays the status of a Git repository
+
+git add => "git add" is a Git command that is used to stage changes for commit. Git takes a snapshot of the changes you have made to your code and stores it in the Git index, which is a temporary staging area.
+
+$ git add [file_name]
+
+
+git commit => When you run "git commit", Git takes the changes that have been staged with "git add" and saves them as a new commit in the repository.
+
+$ git commit -m "commit message"
+
+To chagne the branch name from master to main
+$ git branch -M master main
+
+=> Before pushing you code create a GitHub Account and Create a repository
+
+Know, "git remote add origin" is a Git command used to associate a Git repository on your local machine with a remote repository.
+$ git remote add origin remote_repository_url
+
+$ git push -u origin main
+"git push -u origin main" is a Git command used to upload the local changes in your Git repository to a remote repository. The "-u" option is used to set the upstream branch, which is the branch that Git uses to track changes in the remote repository
+
+git pull = > The "git pull" command automatically downloads and merges the changes from the remote repository into your local repository.
+$ git pull origin main
+
+
+"git merge" is a Git command used to integrate changes from one branch into another branch Locally.
+
+There are several types of merge in Git, including:
+
+Fast-forward merge: This type of merge is used when there is a linear path from the current branch to the branch being merged. In this case, Git simply moves the branch pointer to the latest commit on the branch being merged.
+
+Octopus merge: This type of merge is used when merging more than two branches at once. 
+
+Recursive merge: This is the default type of merge used by Git, and it is used when merging two branches that have diverged from each other. Git combines the changes from both branches into a single branch by creating a new merge commit that represents the combined changes.
+
+$ git merge [branch_name]
+You can replace "branch_name" with the name of the branch you want to merge into the current branch
+
+
+A pull request in Git is a mechanism used to initiate code review and collaboration between developers on a Git project. A pull request allows a developer to propose changes to a project by submitting changes to a branch in a remote repository for review.
+
+The steps to create a pull request in Git depend on the Git hosting service you are using, but generally involve the following steps:
+
+1. Fork the repository: If you don't have write access to the repository you want to contribute to, you need to fork the repository to your own account (This is remote to remote).
+
+2. Clone the repository: Clone the repository to your local machine using the Git clone command(This copy from remote to local).
+
+3. Create a new branch: Create a new branch in your local repository to hold your changes.
+
+4. Make changes and commit them: Make the changes you want to propose and commit them to your new branch.
+
+5. Push the branch to your forked repository: Push the branch with your changes to your forked repository.
+
+6. Initiate the pull request: In the web interface of your forked repository, find the option to initiate a pull request. This is usually located in a menu or button labeled "Create pull request."
+
+7. Fill out the pull request form: Fill out the form with a descriptive title and comment explaining your changes.
+
+8. Submit the pull request: Submit the pull request to the maintainers of the original repository for review.

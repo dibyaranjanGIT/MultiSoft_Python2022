@@ -1,36 +1,23 @@
-import tkinter as tk
+l1 = ['a','b','c','d']
+l2 = [1,2,3,4]
 
-root = tk.Tk()
-root.geometry('800x600')
+# new_dict={}
+#
+# def create_dict(l1, l2):
+#     for item in range(len(l1)):
+#         new_dict[l1[item]] = l2[item]
+#
+#     return new_dict
+#
+# print(create_dict(l1,l2))
 
-frame1 = tk.Frame(root,borderwidth=2,bg='gray')
-frame1.pack(anchor='w',padx=100, pady=130)
+def divisibility_test(num):
+    if num % 15 == 0:
+        return 'abcdef'
+    elif num % 5 == 0:
+        return 'def'
+    elif num % 3 == 0:
+        return 'abc'
+    else:
+        return ''
 
-button1 = tk.Button(frame1,fg='red',bd=3,relief='solid', text="7", padx=16, pady=10)
-button1.grid(row=0,column=2)
-
-button1 = tk.Button(frame1,fg='red',bd=3,relief='solid',text="2",padx=16,pady=10)
-button1.grid(row=2,column=1)
-button1 = tk.Button(frame1,fg='red',bd=3,relief='solid',text="3",padx=16,pady=10)
-button1.grid(row=2,column=2)
-button1 = tk.Button(frame1,fg='red',bd=3,relief='solid',text="4",padx=16,pady=10)
-button1.grid(row=1,column=0)
-button1 = tk.Button(frame1,fg='red',bd=3,relief='solid',text="5",padx=16,pady=10)
-button1.grid(row=1,column=1)
-button1 = tk.Button(frame1,fg='red',bd=3,relief='solid',text="6",padx=16,pady=10)
-button1.grid(row=1,column=2)
-button1 = tk.Button(frame1,fg='red',bd=3,relief='solid',text="1",padx=16,pady=10)
-button1.grid(row=2,column=0)
-button1 = tk.Button(frame1,fg='red',bd=3,relief='solid',text="8",padx=16,pady=10)
-button1.grid(row=0,column=1)
-button1 = tk.Button(frame1,fg='red',bd=3,relief='solid',text="9",padx=16,pady=10)
-button1.grid(row=0,column=0)
-
-button1 = tk.Button(frame1,fg='red',bd=3,relief='solid',text="0",padx=16,pady=10)
-button1.grid(row=3,column=0)
-button1 = tk.Button(frame1,fg='red',bd=3,relief='solid',text=". ",padx=16,pady=10)
-button1.grid(row=3,column=1)
-button1 = tk.Button(frame1,fg='red',bd=3,relief='solid',text="=",padx=16,pady=10)
-button1.grid(row=3,column=2)
-
-root.mainloop()

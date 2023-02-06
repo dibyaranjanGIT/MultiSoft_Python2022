@@ -1,10 +1,10 @@
-'''
-Decorator is something which takes a function as a parameter and add some functionalities to it and returns
-the original function
-'''
+"""
+Decorator is something which takes a function as a parameter and add some functionalities to it
+before or after the calling of the function and returns the original function
+"""
 
-## Note in Python we can pass a function as an argument to another function
-## This concept is also called Heigher Order function
+# Note in Python we can pass a function as an argument to another function
+# This concept is also called Higher Order function
 
 # import time
 #
@@ -47,11 +47,12 @@ the original function
 
 
 ## Now Decorator ##
-#
 import time
+
 
 def add_number(x, y):
     return x + y
+
 
 def calculate_time(func):
     def time_wrapper(x, y):
@@ -64,9 +65,14 @@ def calculate_time(func):
 # result = calculate_time(add_number)
 # print(result)
 # print(result(10,6))
-#
-@calculate_time
+
+
+@calculate_time  # This is called syntactic sugar, which makes easy for us in writing code.
 def substract_number(x, y):
     return x - y
-#
+
+# or you can write like this
+decorated_fuction = calculate_time(substract_number)
+decorated_fuction()
+
 print(substract_number(20001, 102))
