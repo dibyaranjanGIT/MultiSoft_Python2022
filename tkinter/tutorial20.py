@@ -1,4 +1,4 @@
-# More on tkinter
+# How to add favicon to tkinter.
 
 from tkinter import *
 

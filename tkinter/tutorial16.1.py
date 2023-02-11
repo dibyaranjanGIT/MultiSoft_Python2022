@@ -13,8 +13,9 @@ lbx.pack()
 i = 0
 def add():
     global i
+    i = i + 1
     lbx.insert(ACTIVE, f"item{str(i)}") # This ACTIVE keyword will insert the item in the next
-    i = i+1
+
 
 button = Button(root, text="Add item", command=add)
 button.pack()

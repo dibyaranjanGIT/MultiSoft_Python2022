@@ -1,23 +1,14 @@
-l1 = ['a','b','c','d']
-l2 = [1,2,3,4]
+# Create a diction from the following list
+# keys = ['Ten', 'Twenty', 'Thirty']
+# values = [10, 20, 30]
 
-# new_dict={}
-#
-# def create_dict(l1, l2):
-#     for item in range(len(l1)):
-#         new_dict[l1[item]] = l2[item]
-#
-#     return new_dict
-#
-# print(create_dict(l1,l2))
+dictionary = {}
+keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
+for i, j in zip(keys, values):
+    dictionary[i] = j
 
-def divisibility_test(num):
-    if num % 15 == 0:
-        return 'abcdef'
-    elif num % 5 == 0:
-        return 'def'
-    elif num % 3 == 0:
-        return 'abc'
-    else:
-        return ''
+# num = 123
+num = "abc"
+
 

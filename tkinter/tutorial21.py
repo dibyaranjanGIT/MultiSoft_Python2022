@@ -18,7 +18,7 @@ frame = Frame(root)
 frame.pack(pady=10)
 
 # Add Buttons in the window
-b1 = Button(frame, text="1", command=lambda: on_click("1"))
+b1 = Button(frame, text="a", command=lambda: on_click("1"))
 b1.pack(pady=10)
 
 b2 = Button(frame, text="2", command=lambda: on_click("2"))

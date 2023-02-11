@@ -8,6 +8,7 @@ root.title("Scorll Bar")
 # For connecting scrollbar to a widget
 # 1. widget(yscrollcommand = scrollbar.set)
 # 2. scrollbar.config(command=widget.yview)
+
 scrollbar = Scrollbar(root)
 scrollbar.pack(side=RIGHT, fill=Y)
 
