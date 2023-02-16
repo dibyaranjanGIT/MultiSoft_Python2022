@@ -1,20 +1,20 @@
-# How to create method for the object
+# How to create method for the object and different types of methods
 '''
-A method is a function that “belongs to” an object.
+A method / instance method is a function that “belongs to” an object.
 '''
 # class Employee():
-#     def __init__(self, namew, ageww):
-#         self.name = namew
-#         self.age = ageww
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 #
 #     # If a function is declared inside a class then it is called a method
 #     def run(self):
-#         return "He can run 100 km"
-#
+#         return f"{self.name} can run 100 km"
 #
 # jiban = Employee("Jiban", 20)
 # v = jiban.run()
 # print(v)
+
 
 
 '''
@@ -37,13 +37,12 @@ With the help of class methods, we can change and alter the variables of the cla
 #
 # jeban = Employee('Jeban', 20, 10000)
 # dibya = Employee('Dibya', 30, 30000)
-
+#
 # jeban.change_leave(12)
-# print(dibya.no_of_leaves)
 # print(dibya.no_of_leaves)
 
 # jeban.no_of_leaves = 10 # This will create a new instance variable no_of_leaves which is not belongs to the class
-
+# print(dibya.no_of_leaves)
 
 ## Static methods
 '''
@@ -52,7 +51,6 @@ Static method can be called with or without an object for that class .
 
 If we want to create a function which does not take self or cls as an argument we can write a static method.
 '''
-
 
 class Employee:
     no_of_leaves = 8
@@ -72,12 +70,12 @@ class Employee:
     @staticmethod
     def printgood(string):
         print("This is good " + string)
-
-dibya = Employee("Dibya", 255, "Instructor")
-jiban = Employee("Jeban", 455, "Student")
-
-jiban.printgood("Jeban") # Accessing the static method with the object
-Employee.printgood("Jeban") # Accesing the static method with the class
+#
+# dibya = Employee("Dibya", 255, "Instructor")
+# jiban = Employee("Jeban", 455, "Student")
+#
+# jiban.printgood("Jeban") # Accessing the static method with the object
+# Employee.printgood("Jeban") # Accesing the static method with the class
 
 '''
 The difference between a static method and a class method is:

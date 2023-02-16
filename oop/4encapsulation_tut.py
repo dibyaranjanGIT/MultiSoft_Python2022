@@ -26,27 +26,22 @@ Protected Member: Accessible within the class and its sub-classes ('_')
 #
 #
 # emp = Employee('Jeeban', 10000)
-
-# emp.__salary()
+#
 # print('Name:', emp.name)
 # print('Salary:', emp.__salary) ## Not showing
 
 
 ## Protected member ##
-#
-# class Company:
-#     def __init__(self):
-#         self._project = "Python"
-#         self.institute = 'MS'
-# ## child class
-# class Employee(Company):
-#     def __init__(self, name):
-#         self.name = name
-#
-#     def show(self):
-#         print("Employee name :", self.name)
-#         print("Working on project :", self._project)
-#
-# e = Employee("Jeeban")
-# e.show()
-# print(e._project)
+
+class Employee():
+    def __init__(self, name, project):
+        self.name = name
+        self._project = project
+
+    def show(self):
+        print("Employee name :", self.name)
+
+
+e = Employee("Jeeban", "Python MS")
+e.show()
+print(e._project) # Accessible but discouraged

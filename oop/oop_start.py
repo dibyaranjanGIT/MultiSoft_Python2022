@@ -1,8 +1,8 @@
 # Class = Class is a template or blueprint from which we cretes object
-# Object = It is an instance of the class
-# Attribute = The characterstics associated with a object
-# Method = The function inside a class
-
+# Object/ instance = It is an instance of the class
+# Attribute/ instance variable/ member variable/ data meember = The characterstics associated with a object
+# Method/ Instance method = The function inside a class
+#
 # class Employee:
 #     pass
 #
@@ -25,15 +25,22 @@ The primary use of a constructor is to declare and initialize member/ instance v
 The constructor is executed automatically at the time of object creation.
 '''
 #
-class Employee:
-    def __init__(self, fname, age):
-        self.fname = fname
-        self.age = age
-jiban = Employee("jeeban",21)
-print(jiban.age)
+# class Employee:
+#     def __init__(self, fname, age):
+#         self.fname = fname
+#         self.age = age
+# jiban = Employee("jeeban", 21)
+# print(jiban.age)
 
-dibya = Employee("Dibya", 30)
-print(dibya.fname)
+# dibya = Employee("Dibya", 30)
+# print(dibya.fname)
+
+
+class Employee:
+    def __init__(self):
+        print("This is an employee class")
+
+jiban = Employee()
 
 
 

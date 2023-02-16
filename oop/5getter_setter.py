@@ -10,11 +10,11 @@ class Student:
     def __init__(self, name, age):
         # private member
         self.name = name
-        self._age = age
+        self.__age = age
 
     # getter method
     def get_age(self):
-        return self._age
+        return self.__age
 
     # setter method
     def set_age(self, age):
@@ -22,8 +22,11 @@ class Student:
 
 
 stud = Student('Jeeban', 14)
-# stud.set_age(20)
-# print(stud.get_age())
+print(stud.get_age())
+stud.name = "Dibya"
+print(stud.name)
+stud.set_age(20)
+print(stud.get_age())
 
 
 

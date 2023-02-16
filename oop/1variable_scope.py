@@ -13,11 +13,12 @@ class Student:
         self.name = name
         self.age = age
 
-student_one = Student('Jeeban', 20)
-print(student_one.name)
-print(student_one.school_name)
+jeeban = Student('Jeeban', 20)
+print(jeeban.name)
+print(jeeban.school_name)
 
 dibya = Student("Dibya", 30)
+print(dibya.name)
 print(dibya.school_name)
 
 

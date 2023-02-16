@@ -10,20 +10,20 @@ instead of creating it from scratch
 
 
 ## Single Inheritance ##
-## Base class
+# # Base class
 # class Vehicle:
 #     def __init__(self):
 #         print('Inside Vehicle class')
 #
 #     def vehicle_info(self):
 #         return "The vehicle is a four wheeler"
-
-## Child class
+#
+# ## Child class
 # class Car(Vehicle):
 #     def __init__(self):
 #         print('Inside Car class')
-
-## Create object of Car
+#
+# ## Create object of Car
 # car = Car()
 # print(car.vehicle_info())
 
@@ -33,19 +33,19 @@ instead of creating it from scratch
 In multiple inheritance, a class is derived from more than one class. 
 The child class, in this case, has features of both the parent classes.
 '''
-## Parent class 1
+# Parent class 1
 # class Person:
 #     def person_info(self):
 #         print('Inside Person class')
 #         return "The person is male and his age is 35"
 #
-## Parent class 2
+# # Parent class 2
 # class Company:
 #     def company_info(self):
 #         print('Company Info ! ')
 #         return "He is belong ABC company"
-#
-# ## Child class
+# #
+# # ## Child class
 # class Employee(Person, Company):
 #     def __init__(self, salary, skill):
 #         self.salary = salary
@@ -53,9 +53,10 @@ The child class, in this case, has features of both the parent classes.
 #     def employee_info(self):
 #         print('Inside Employee class')
 #         return f"The employee has salary {self.salary} and has skill {self.skill}"
-#
+# #
 # jeeban =Employee(2000,'PYTHON')
 # print(jeeban.company_info())
+# print(jeeban.person_info())
 
 
 ## Create object of Employee

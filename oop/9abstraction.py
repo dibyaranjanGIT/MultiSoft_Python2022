@@ -3,15 +3,11 @@ Abstraction refers to hiding unnecessary details to focus on the whole product i
 separately. It is a mechanism that represents the important features without including implementation details.
 
 Abstract methods are defined in the abstract class. They mostly do not have the body, but it is possible to implement
-abstract methods in the abstract class. Any subclass deriving from such an abstract class still needs to provide an implementation for that abstract method.
+abstract methods in the abstract class. Any subclass deriving from such an abstract class still needs to provide an
+implementation for that abstract method.
 """
 
 ## Abstraction can be achieved using the concept of encapsulation
-## An abstract class is a class that holds an abstract method
-
-'''
-An abstract class can have both abstract methods as well as concrete methods.
-'''
 
 # from abc import ABCMeta, abstractmethod
 from abc import ABC, abstractmethod
