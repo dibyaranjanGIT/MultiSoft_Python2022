@@ -16,7 +16,7 @@ if the array is sorted then we can just compare the current element with next el
 which will result in O(n) - Linear time complexity
 
 Sorting can be performed in two ways
-    1.Quick sort
+    1. Quick sort
     2. Merge sort
 
 O(1) - Constant time
