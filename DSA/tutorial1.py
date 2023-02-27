@@ -2,14 +2,14 @@
 What is Data Structure ?
 Ans: A way of organizing data
 
-1. what is a data structure?A way to organize dataArrays, LinkedList, Trees, Stack, Queue, Hash Table
+What is an Algorithm ?
+Algorithms are the methods and techniques (It's a way of solving a particular problem) used to solve problems related to
+data structures such as arrays, linked lists, trees, graphs, etc. An algorithm takes input data and performs a series
+of operations to transform it into the desired output.
 
 Array : A collection of elements with similar data type
 
 Array of integers = [101, 102, 102, 103]
-
-Algorithim = Doing something in the data.
-It's a way of solving a particular problem
 
 
 Topics:

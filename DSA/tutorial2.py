@@ -16,9 +16,7 @@ Linear search
 suppose you are searching for element 90, using linear search the best case scenario is to find the
 element in the first place and the worst case scenario is to find the element in the last
 
-we denote the worst case with bigO(n)
-
-when the data grows how the time grows
+we denote the worst case with bigO(n),when the data grows how the time grows
 
 
 Binary search
@@ -32,7 +30,7 @@ O(1) < O(log n) < O(n)  < O(nlogn) < O(n2) <O(n3) < O(2n) < O(n!)
 lest time   ------------------------------------------ high time
 
 Space Complexity
-when we give some extra space (auxilar space) then we can reduce the time taken.
+when we give some extra space (auxiliary space) then we can reduce the time taken.
 
 
 """

@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6f80da-1059-47e9-be0c-1a3adc87387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ArgumentParsing/tutorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/tutorial4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/tutuorial5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/tutorial5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/tutorial6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PyTest/main_pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shutil_Module/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shutil_Module/folder1/test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shutil_Module/folder1/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shutil_Module/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArgumentParsing/check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA/tutorial3.py" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/tutorial3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/tutorial1.py" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/tutorial1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/tutorial2.py" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/tutorial2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/tutuorial5.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +66,8 @@
       <recent name="D:\STUDY\MultiSoft_Python2022\Reading_JSON" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tutorial">
-    <configuration name="7magic_methods_operator_overloading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in main_pytest.py">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiSoft_Python2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,32 +75,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Shutil_Module" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/7magic_methods_operator_overloading.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="8super()_inherit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MultiSoft_Python2022" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/8super()_inherit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Shutil_Module/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,13 +151,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in main_pytest.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MultiSoft_Python2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/PyTest/main_pytest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in main_pytest.py" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.tutorial" />
         <item itemvalue="Python.tutorial4" />
         <item itemvalue="Python.tutuorial5" />
-        <item itemvalue="Python.8super()_inherit" />
-        <item itemvalue="Python.7magic_methods_operator_overloading" />
       </list>
     </recent_temporary>
   </component>
